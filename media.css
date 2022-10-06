@@ -1,0 +1,184 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media only screen and (min-width:1450px) {
+    .city {
+        /* border: 1px solid red; */
+        width: 100vw;
+        height: 20vw;
+        /* margin: 1rem auto; */
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .istanbul {
+        background-image: url(./image/galat.jpg);
+    }
+
+    .tokyo {
+        background-image: url(./image/tokyo-tower-4k-4v.jpg);
+    }
+
+    .paris {
+        background-image: url(https://www.findingtheuniverse.com/wp-content/uploads/2018/07/Paris-from-Tour-Montparnasse_by_Laurence-Norah.jpg);
+
+    }
+
+    .moskova {
+        background-image: url(https://images8.alphacoders.com/361/361761.jpg);
+    }
+
+    .analog {
+        display: none;
+    }
+
+    .digital {
+        width: 200px;
+        /* height: 100px; */
+    }
+
+    .container {
+        margin: 0 auto;
+
+        flex-direction: column;
+    }
+
+    .info h3,
+    h4 {
+        font-size: 4vh;
+    }
+
+    .temp {
+        background: none;
+    }
+
+    .hours,
+    .minutes,
+    .seconds {
+        background: rgba(0, 0, 0, 0.4);
+
+    }
+
+}
+
+@media only screen and (min-width:1950px) {
+    .city {
+        border: 2px solid blue;
+        width: 100vw;
+        height: 20vw;
+        justify-content: space-around;
+    }
+
+    .istanbul {
+        background-image: url(./image/galat.jpg);
+    }
+
+    .analog {
+        display: none;
+    }
+
+    .digital {
+        width: 200px;
+        /* height: 100px; */
+    }
+
+    .container {
+        margin: 0 auto;
+
+        flex-direction: column;
+    }
+
+    .info h3,
+    h4 {
+        font-size: 4vh;
+    }
+
+    .temp {
+        background: none;
+    }
+
+    .hours,
+    .minutes,
+    .seconds {
+        background: rgba(0, 0, 0, 0.4);
+
+    }
+
+
+}
+
+@media only screen and (min-width:200px) and (max-width:1000px) {
+    .city {
+        /* border: 2px solid blue; */
+        width: 100vw;
+        height: 200vh;
+        /* justify-content: space-around; */
+        gap: 6rem;
+    }
+
+
+
+
+    .analog {
+        /* display: none; */
+    }
+
+    .digital {
+        /* width: 200px; */
+        /* height: 100px; */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .info h3,
+    h4 {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    .temp {
+        background: none;
+    }
+
+    .hours,
+    .minutes,
+    .seconds {
+        background: rgba(0, 0, 0, 0.4);
+
+    }
+
+
+
+}
+
+@media only screen and (min-width:200px) and (max-width:500px) {
+    .city {
+        /* display: none; */
+        width: 100vw;
+        height: 120vw;
+        gap: 0;
+
+    }
+
+    .info h3,
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .analog {
+        width: 30vh;
+        height: 30vh;
+    }
+
+
+
+
+
+
+}

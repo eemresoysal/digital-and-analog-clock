@@ -47,11 +47,11 @@ const a = cities.forEach((x, i) => {
 
   </div>
   <div class="analog">
-    <div class="hourbar ${x}"></div>
-    <div class="minutebar"></div>
-    <div class="secondbar"></div>
+    <div class="hourbar ${x} bar"></div>
+    <div class="minutebar bar"></div>
+    <div class="secondbar bar"></div>
   </div>
-  <div>
+  <div class="info">
   <h3>${x}</h3>
   <h4 class="temp ${x}"></h4>
   </div>
